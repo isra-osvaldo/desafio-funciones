@@ -1,0 +1,23 @@
+body {
+    background-color: whitesmoke;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+    max-width: 1200px;
+    margin-inline: auto;
+}
+
+.container > div {
+    border-radius: 18px;
+}
+
+#container-2 {
+    margin-top: 50px;
+}
