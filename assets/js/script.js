@@ -5,7 +5,5 @@ function pintar(elemento, color = 'green') {
 }
 
 const $ele = document.getElementById('ele1')
-$ele.addEventListener('click', () => {
-    pintar($ele, 'yellow')
-})
+$ele.addEventListener('click', () => pintar($ele, 'yellow'))
 
