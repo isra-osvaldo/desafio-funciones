@@ -32,13 +32,13 @@ document.addEventListener('keydown', function(event) {
 })
 
 function agregarDiv(color) {
-    const $contenedor = document.querySelector('#container-2')
+    const $contenedor3 = document.querySelector('#container-3')
     const nuevoDiv = document.createElement('div')
     nuevoDiv.style.width = '200px'
     nuevoDiv.style.height = '200px'
     nuevoDiv.style.backgroundColor = color
     nuevoDiv.style.border = '1px solid black'
-    $contenedor.appendChild(nuevoDiv)
+    $contenedor3.appendChild(nuevoDiv)
 }
 
 // Crear divs con las teclas
